@@ -28,7 +28,7 @@ pets += 2;
 let allowedPets = 3;
 // 13 - Create a conditional: if adventurous is true, console log "Adventures are great!",
 // if it's not true, console log "How about we stay home?"
-if (adventurous == true) {
+if (adventurous === true) {
   console.log(' Adventure is great! ')
 }
 else{
@@ -47,7 +47,7 @@ if (luckyNumber == 2 ){
 if ( pets < allowedPets){
   console.log('I can have more pets!')
 }
-else if ( pets == allowedPets ){
+else if ( pets === allowedPets ){
   console.log('I have enough pets')
 }
 else if ( pets > allowedPets){
